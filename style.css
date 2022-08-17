@@ -1,19 +1,30 @@
 * {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'MedievalSharp', cursive;
+}
+
+.no-border {
+  border: 0;
+  box-shadow: none;
+}
+
+.no-bg {
+  background: none;
+}
+
+/* * {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
 
 header {
-  display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 16px;
   align-items: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'MedievalSharp', cursive;
-  letter-spacing: 1px;
 }
 
 #logo {
@@ -45,3 +56,12 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   cursor: pointer;
 }
+
+#main-container {
+  display: flex;
+}
+
+#sidebar {
+  max-width: 150px;
+  width: 100%;
+} */

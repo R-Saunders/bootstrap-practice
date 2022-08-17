@@ -1,43 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/1449b0787b.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1449b0787b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
 
-</head>
+  <body>
+    <div class="container-fluid">
+      <header class="row py-3 d-flex align-items-center">
+        <div class="col-sm-4">
+          <img class="rounded-circle" src="https://via.placeholder.com/75" />
+        </div>
+        <div class="col-sm-4">
+          <h1>Bestiary</h1>
+        </div>
+        <div class="col-sm-4">
+          <div class="border rounded px-1 d-flex justify-content-between">
+            <input class="no-border" type="text" placeholder="Search" />
+            <button class="no-border no-bg">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </header>
 
-<body>
+      <div class="row mt-5">
+        <div class="col-sm-3">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a>Home</a></li>
+            <li class="list-group-item"><a>Random Article</a></li>
+            <li class="list-group-item"><a>Trending</a></li>
+            <li class="list-group-item"><a>How to Contribute</a></li>
+            <li class="list-group-item"><a>Contribute</a></li>
+            <li class="list-group-item"><a>Contact Us</a></li>
+          </ul>
+        </div>
 
-  <header>
-    <img id="logo" src="https://via.placeholder.com/75"/>
-    <h1>Bestiary</h1>
-    <div id="search-box">
-      <input type="text" placeholder="Search">
-      <button>
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </button>
+        <main class="col-sm-9">
+          <section></section>
+        </main>
+      </div>
+
+      <footer class="row"></footer>
     </div>
-  </header>
 
-  <main>
-
-    <div id="sidebar">
-
-    </div>
-
-    
-
-  </main>
-
-  <footer>
-
-  </footer>
-
-  <script type="text/javascript" src="app.js"></script>
-
-</body>
-
+    <script type="text/javascript" src="app.js"></script>
+  </body>
 </html>
