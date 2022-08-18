@@ -6,62 +6,24 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'MedievalSharp', cursive;
 }
 
-.no-border {
-  border: 0;
-  box-shadow: none;
-}
-
 .no-bg {
   background: none;
 }
 
-/* * {
-  padding: 0;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-}
+@media (max-width: 568px) {
+  #logo {
+    display: flex;
+    justify-content: flex-end;
+  }
 
-header {
-  justify-content: space-between;
-  padding: 16px;
-  align-items: center;
-}
+  #title {
+    display: flex;
+    justify-content: flex-start;
+    text-align: none;
+  }
 
-#logo {
-  border-radius: 40px;
+  header button {
+    margin: 1em 0;
+    width: calc(100vw - 4em);
+  }
 }
-
-#search-box {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 16px;
-  border: 1px solid black;
-  border-radius: 20px;
-  padding: 0 4px
-}
-
-#search-box input {
-  padding: 0px 8px;
-  border: none;
-}
-
-#search-box button {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 5px;
-  padding: 4px 8px;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-#main-container {
-  display: flex;
-}
-
-#sidebar {
-  max-width: 150px;
-  width: 100%;
-} */

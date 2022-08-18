@@ -25,17 +25,23 @@
 
   <body>
     <div class="container-fluid">
-      <header class="row py-3 d-flex align-items-center">
-        <div class="col-sm-4">
+      <header class="row d-flex align-items-center py-2">
+        <div id="logo" class="col-3 col-sm-4">
           <img class="rounded-circle" src="https://via.placeholder.com/75" />
         </div>
-        <div class="col-sm-4">
-          <h1>Bestiary</h1>
+        <div id="title" class="col-9 col-sm-4 text-center">
+          <h1 class="m-0">Header</h1>
         </div>
         <div class="col-sm-4">
-          <div class="border rounded px-1 d-flex justify-content-between">
-            <input class="no-border" type="text" placeholder="Search" />
-            <button class="no-border no-bg">
+          <div>
+            <button
+              class="p-1 no-bg rounded d-flex align-items-center justify-content-between"
+            >
+              <input
+                class="m-0 p-0 border border-0"
+                type="text"
+                placeholder="Search"
+              />
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </div>
@@ -55,13 +61,20 @@
         </div>
 
         <main class="col-sm-9">
-          <section></section>
+          <section>
+            <h2>Heading</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium.
+            </p>
+          </section>
         </main>
       </div>
 
       <footer class="row"></footer>
     </div>
-
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
